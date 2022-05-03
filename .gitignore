@@ -65,3 +65,10 @@ node_modules/
 # dotenv environment variables file
 .env
 .DS_Store
+
+dist/
+package-lock.json
+bit-ly.zip
+.vscode/settings.json
+dist.crx
+dist.pem

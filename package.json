@@ -1,0 +1,40 @@
+{
+  "name": "pend-ly",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chrome-extension-manifest-webpack-plugin": "^1.0.6",
+    "firebase": "^9.7.0",
+    "firebaseui": "^6.0.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravidorr/pend-ly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravidorr/pend-ly/issues"
+  },
+  "homepage": "https://github.com/ravidorr/pend-ly#readme"
+}

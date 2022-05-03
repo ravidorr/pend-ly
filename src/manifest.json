@@ -1,0 +1,32 @@
+{
+    "name": "Pend.ly",
+    "description": "Create a short URL",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkHg+IShAUi6vDM9OceO8i/7oGhfvJOOKLSmVi17ruuMA5DKgcmOSnbT0356H5MPxARCa9KcNxhWpWM0JVuo57NNeI2HZbRSp3befmV64eoKcLUnn1h2wQr2MniX2DSmwW5qP+lxQy85YrNNS32xd+vhnUxXa9CcisedMfoyc4zR3b7lDukIoC8GZIy7U2iBXD6p7auiMO5qguNpJw72bdoUK5c2vjM81Com3PCb7Ah/22+dX8rjIBxxAzZd+kYz63VfDUXNpjW5KvDlkZyHBrR4FMgq59lDG2N9eoyxHkuJKadZ8UK9yTxp1Gtmzgn208KchiA4wIyB0RF1ejYUuPQIDAQAB",
+    "oauth2": {
+        "client_id": "546706089635-v6nj8fvdliau8dd4d7ujq453mv28o4dc.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/contacts.readonly"
+          ]
+      },
+    "background": {
+        "service_worker": "background.js"
+      },
+      "permissions": ["storage", "identity"],
+      "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+          "16": "/img/pend-ly-16.png",
+          "32": "/img/pend-ly-32.png",
+          "48": "/img/pend-ly-48.png",
+          "128": "/img/pend-ly-128.png"
+        }
+      },
+      "icons": {
+        "16": "/img/pend-ly-16.png",
+        "32": "/img/pend-ly-32.png",
+        "48": "/img/pend-ly-48.png",
+        "128": "/img/pend-ly-128.png"
+      }
+  }
